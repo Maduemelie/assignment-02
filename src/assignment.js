@@ -33,7 +33,7 @@ assignment.sumOfNumbers = sumOfNumbers;
  */
 function countEvenNumbers(arrayOfNumbers) {
    const even = []
-  array.forEach(element => {
+  arrayOfNumbers.forEach(element => {
     if (element % 2 === 0)
     even.push(element)
   });
